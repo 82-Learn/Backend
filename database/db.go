@@ -16,7 +16,7 @@ var (
 func ConnectDB() {
 	var err error
 
-	db, err := gorm.Open("postgres", "user=postgres dbname=ReactDB host=localhost port=5432 password=Mick45")
+	db, err := gorm.Open("postgres", "user=postgres dbname="" host="" port="" password=""")
 	if err != nil {
 		panic("failed to connect database")
 	}
